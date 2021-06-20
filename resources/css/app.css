@@ -1,0 +1,401 @@
+/* COLOR */
+/* ----- */
+/* BACKGROUND */
+/* ---------- */
+/* FONTS */
+/* ----- */
+/* IMG */
+/* --- */
+/* BACKGROUND */
+/* GLOBAL */
+body {
+  background-color: salmon;
+  background-attachment: fixed;
+}
+
+header,
+section {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.bg-glass {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background-attachment: fixed;
+}
+
+/* ------ */
+/* HEADER */
+.header {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(122, 255, 215, 0.2)), to(rgba(0, 121, 145, 0.8))), url("../img/galette.jpg");
+  background-image: linear-gradient(to right, rgba(122, 255, 215, 0.2), rgba(0, 121, 145, 0.8)), url("../img/galette.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 50% 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  -webkit-box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+          box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+.container-header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-header .title,
+.container-header .subtitle {
+  width: 80%;
+  text-align: center;
+}
+
+.container-header .title {
+  color: white;
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+
+.container-header .title::after {
+  content: " ";
+  display: block;
+  height: 2px;
+  background-color: greenyellow;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 20%;
+}
+
+.container-header .title span {
+  color: salmon;
+  font-size: 3.6rem;
+  font-weight: 900;
+}
+
+.container-header .subtitle {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.container-header .subtitle span {
+  color: salmon;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+/* ------ */
+/* NAV */
+nav .show {
+  margin-top: 1rem;
+  background-color: whitesmoke;
+  text-align: center;
+  -webkit-box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+          box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+nav .title {
+  color: white;
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav .title span {
+  color: salmon;
+  font-size: 2.6rem;
+  font-weight: 900;
+}
+
+nav .nav-item {
+  font-weight: 600;
+  text-align: center;
+}
+
+/* --- */
+/* OURSTORY */
+.img-ourstory {
+  width: 100%;
+  border-radius: 10% 10% 50% 50%;
+}
+
+.title-ourstory {
+  color: white;
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title-ourstory::after {
+  content: " ";
+  display: block;
+  height: 2px;
+  background-color: greenyellow;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 20%;
+}
+
+.text-ourstory {
+  color: white;
+  text-align: center;
+}
+
+/* -------- */
+/* SINATTURERECIPES */
+.singaturerecipes {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), to(rgba(255, 255, 255, 0.3))), url("../img/galette-stjacque.jpg");
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.3)), url("../img/galette-stjacque.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-singaturerecipes .title-singaturerecipes {
+  color: white;
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.container-singaturerecipes .title-singaturerecipes::after {
+  content: " ";
+  display: block;
+  height: 2px;
+  background-color: greenyellow;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 20%;
+}
+
+.container-singaturerecipes .text-singaturerecipes {
+  color: white;
+  text-align: center;
+}
+
+/* ---------------- */
+/* OURMENU */
+.section-ourmenu {
+  background-color: white;
+}
+
+.container-ourmenu .title-ourmenu {
+  color: black;
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.container-ourmenu .title-ourmenu::after {
+  content: " ";
+  display: block;
+  height: 2px;
+  background-color: greenyellow;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 20%;
+}
+
+.container-ourmenu .text-ourmenu {
+  color: black;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card-ourmenu {
+  border: salmon 1px solid;
+}
+
+.card-ourmenu .card-header {
+  border: salmon 1px solid;
+  background-color: salmon;
+}
+
+.impaire-ourmenu {
+  border-radius: 25px 10px 25px 10px;
+  -webkit-box-shadow: -2px 0px 5px 3px rgba(0, 0, 0, 0.7);
+          box-shadow: -2px 0px 5px 3px rgba(0, 0, 0, 0.7);
+}
+
+.impaire-ourmenu .card-header {
+  border-radius: 24px 9px 0 0;
+}
+
+.paire-ourmenu {
+  border-radius: 10px 25px 10px 25px;
+  -webkit-box-shadow: 2px 0px 5px 3px rgba(0, 0, 0, 0.7);
+          box-shadow: 2px 0px 5px 3px rgba(0, 0, 0, 0.7);
+}
+
+.paire-ourmenu .card-header {
+  border-radius: 9px 24px 0 0;
+}
+
+.cardtitle-ourmenu span {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 5px;
+  float: right;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+/* ------- */
+/* GALERY */
+.section-galery {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.section-galery .img-galery {
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  will-change: transform;
+}
+
+.section-galery .img-galery:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-box-shadow: -2px 0px 10px 10px rgba(0, 0, 0, 0.7);
+          box-shadow: -2px 0px 10px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* ------ */
+/* FOOTER */
+footer .section-infofooter {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+footer .section-infofooter .title {
+  color: white;
+  font-family: "Caveat", cursive;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+footer .section-infofooter .title::after {
+  content: " ";
+  display: block;
+  height: 2px;
+  background-color: greenyellow;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+footer .section-infofooter .title span {
+  color: salmon;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+footer .section-infofooter .subtitle {
+  color: white;
+  font-size: 1rem;
+}
+
+footer .section-infofooter .subtitle span {
+  color: salmon;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+footer .section-infofooter .sitemap {
+  list-style: none;
+  color: white;
+}
+
+footer .section-infofooter .sitemap .list {
+  border-bottom: 2px rgba(255, 255, 255, 0.5) solid;
+  border-left: 1px rgba(255, 255, 255, 0.5) solid;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
+footer .section-infofooter .sitemap .contact {
+  color: white;
+  font-weight: 700;
+  margin-left: 50px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer .section-infofooter .sitemap .contact i {
+  color: salmon;
+  margin-right: 10px;
+}
+
+footer .section-mention {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+footer .section-mention .container-mention {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer .section-mention .container-mention div a {
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+/* ------ */
+/*# sourceMappingURL=app.css.map */

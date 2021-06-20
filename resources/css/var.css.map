@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,WAAW;AAMX,WAAW;AAEX,gBAAgB;AAGhB,gBAAgB;AAChB,WAAW;AAEX,WAAW;AAEX,SAAS;AAIT,SAAS",
+    "sources": [
+        "var.scss"
+    ],
+    "names": [],
+    "file": "var.css"
+}

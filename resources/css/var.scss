@@ -1,0 +1,22 @@
+
+/* COLOR */ 
+$primary: rgb(0, 0, 0);
+$secondary: rgb(255, 255, 255);
+$color-03: rgb(122, 255, 215);
+$color-04: rgb(0, 121, 145);
+$color-05: rgb(250, 128, 114);
+/* ----- */
+
+/* BACKGROUND */
+$bg-gradien01: linear-gradient(to right, rgba($color-03, 0.2), rgba($color-04, 0.8));
+$bg-gradien02: linear-gradient(to left, rgba($primary, 0.6), rgba($secondary, 0.3));
+/* ---------- */
+/* FONTS */
+$font-primary: 'Caveat', cursive;
+/* ----- */
+
+/* IMG */
+$img-01: url('../img/galette.jpg');
+$img-02: url('../img/galette_complete.jpg');
+$img-03: url('../img/galette-stjacque.jpg')
+/* --- */

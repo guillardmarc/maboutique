@@ -1,0 +1,11 @@
+/* BACKGROUND */
+@mixin bg-colorimg($color, $img) {
+    background-image: $color, $img;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@mixin form-round ($toleft, $topright, $bottomright, $bottomleft) {
+    border-radius: $toleft $topright $bottomright $bottomleft;
+}
